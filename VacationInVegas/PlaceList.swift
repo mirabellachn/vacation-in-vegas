@@ -24,7 +24,7 @@ struct PlaceList: View {
                         .clipShape(.rect(cornerRadius: 7))
                         .frame(width:100, height:100)
                     
-                    Text(place.name + "test commit")
+                    Text(place.name)
                     
                     Spacer()
                     
