@@ -49,7 +49,7 @@ class Place {
                     true),
             Place(name: "Paris", latitude: 36.1125, longitude: -115.1707, interested:
                     true),
-            Place(name: "Treasure Island", latitude: 36.1247, longitude: -115.1721,
+            Place(name: "Treasure Island 1", latitude: 36.1247, longitude: -115.1721,
                   interested: false),
             Place(name: "Stratosphere", latitude: 36.1475, longitude: -115.1566, interested: false),
             Place(name: "Luxor", latitude: 36.0955, longitude: -115.1761, interested: false),
