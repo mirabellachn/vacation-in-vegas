@@ -37,7 +37,7 @@ struct PlaceList: View {
             }
             .toolbar {
                 ToolbarItem(placement:.topBarTrailing) {
-                    Button("Show Images", systemImage: "photo"){
+                    Button("Show Image", systemImage: "photo"){
                         
                     }
                 }
