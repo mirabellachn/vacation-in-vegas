@@ -35,6 +35,13 @@ struct PlaceList: View {
                     }
                 }
             }
+            .toolbar {
+                ToolbarItem(placement:.topBarTrailing) {
+                    Button("Show Images", systemImage: "photo"){
+                        
+                    }
+                }
+            }
         }
     }
 }
