@@ -23,7 +23,7 @@ class Place {
     }
     
     var image: Image {
-        Image(name.lowercased().replacingOccurrences(of: "", with: ""))
+        Image(name.lowercased().replacingOccurrences(of: " ", with: ""))
     }
     
     init(name: String, latitude: Double, longitude: Double, interested: Bool) {
